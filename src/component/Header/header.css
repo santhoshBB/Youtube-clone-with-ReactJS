@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  margin: 0;
+  padding: 15px;
+  box-shadow: 0px 1px 1px 0px grey;
+}
+i {
+  font-size: 18px !important;
+  color: rgb(75, 73, 73);
+  margin: 4px 21px;
+}
+.search {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.options {
+  flex: 1.5;
+}
+.logo {
+  flex: 1;
+  display: flex;
+}
+form {
+  display: contents;
+}
+form .inp {
+  width: 75%;
+  outline: none;
+  border: 0.5px solid rgb(165, 165, 165);
+}
+form button {
+  outline: none;
+  border: 0.5px solid rgb(165, 165, 165);
+}
