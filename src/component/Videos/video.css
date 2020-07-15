@@ -36,3 +36,16 @@
   font-size: medium;
   font-weight: bold;
 }
+@media only screen and (min-width: 10px) and (max-width: 768px) {
+  .videoblock {
+    width: fit-content;
+    padding: 0;
+    margin: 15px;
+  }
+  .listed {
+    width: 100%;
+  }
+  .list {
+    margin: 20px;
+  }
+}
